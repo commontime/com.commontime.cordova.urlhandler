@@ -1,0 +1,37 @@
+{
+  "name": "com.commontime.cordova.urlhandler",
+  "version": "1.0.0",
+  "description": "Commontime cordova urlhandler plugin.",
+  "cordova": {
+    "id": "com.commontime.cordova.urlhandler",
+    "platforms": [
+      "android",
+      "ios",
+      "wp8",
+      "windows",
+      "windows8"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/commontime/com.commontime.cordova.urlhandler.git"
+  },
+  "keywords": [
+    "cordova",
+    "urlhandler",
+    "commontime",
+    "cordova-android",
+    "cordova-ios",
+    "cordova-wp8",
+    "cordova-windows",
+    "cordova-windows8"
+  ],
+  "engines": [
+    {
+      "name": "cordova",
+      "version": ">=3.0.0"
+    }
+  ],
+  "author": "Commontime Ltd",
+  "license": "MIT"
+}
