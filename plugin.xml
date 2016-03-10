@@ -68,7 +68,7 @@ version="1.0.0">
         </feature>
       </config-file>
 
-      <source-file src="src/android/LaunchMyApp.java" target-dir="src/com/commontime/plugin/notification"/>
+      <source-file src="src/android/LaunchMyApp.java" target-dir="src/com/commontime/plugin/"/>
 
       <config-file target="AndroidManifest.xml" parent="/*/application/activity">
         <intent-filter>
