@@ -72,13 +72,17 @@ version="1.1.0">
 
       <config-file target="AndroidManifest.xml" parent="/*/application/activity">
         <intent-filter>
-          <data android:scheme="$URL_SCHEME"/>
+          <data android:scheme="@string/app_url_scheme"/>
           <action android:name="android.intent.action.VIEW" />
           <category android:name="android.intent.category.DEFAULT" />
           <category android:name="android.intent.category.BROWSABLE" />
         </intent-filter>
       </config-file>
     </platform>
+
+    <config-file target="res/values/strings.xml" parent="/*">
+        <string name="app_url_scheme">$URL_SCHEME</string>
+    </config-file> 
 
     <!-- windows8 -->
     <platform name="windows8">
